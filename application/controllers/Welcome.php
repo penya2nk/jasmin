@@ -60,14 +60,27 @@ class Welcome extends CI_Controller {
 		$this->load->view('v_category');
 	}
 
+	public function Sedia()
+	{
+		$data['kategori']=$this->m_jasa->get_all_kategori();
+		$this->load->view('v_sedia', $data);
+	}
+
 	public function Profil()
 	{
 		$this->load->view('v_profil');
 	}
 
+	public function Profil_2()
+	{
+		$this->load->view('v_profil_2');
+	}
+
 	public function Penyedia()
 	{
-		$this->load->view('v_penyedia');
+
+		$data['provinsi']=$this->m_wilayah->get_all_provinsi();
+		$this->load->view('v_penyedia', $data);
 	}
 
 	public function Obrolan()

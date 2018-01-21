@@ -39,8 +39,8 @@
 						<div class="top_nav_right">
 							<ul class="top_nav_menu">
 								<li class="account">
-									<a href="<?php echo site_url('welcome/setting');?>">
-										My Account
+									<a href="<?php echo site_url('welcome/profil_2');?>">
+										Allan Taylor
 									</a>
 								</li>
 							</ul>
@@ -120,14 +120,53 @@
 		<div class="container">
 			<div class="panel panel-default">
                         <div class="panel-heading">
-                            Alert Styles
+                            Notifikasi
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="alert alert-success">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="alert-link">Alert Link</a>.
-                            </div><div class="alert alert-warning">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="alert-link">Alert Link</a>.
+                                Permintaan jasa <strong>Service AC</strong> masuk dari <strong>Brian Beck</strong>.
+                                <p><small>12-11-2018 6:30</small></p>
+                            </div>
+                            <div class="alert alert-warning">
+                                Transaksi jasa <strong>Driver</strong> dengan <strong>Bassem Ramadan</strong> telah selesai.
+                                <p><small>12-11-2018 13:30</small></p>
+                            </div>
+                            <div class="alert alert-success">
+                                Permintaan jasa <strong>Driver</strong> masuk dari <strong>Bassem Ramadan</strong>.
+                                <p><small>12-11-2018 6:30</small></p>
+                            </div>
+                            <div class="alert alert-warning">
+                                Transaksi jasa <strong>Driver</strong> dengan <strong>Bassem Ramadan</strong> telah selesai.
+                                <p><small>8-11-2018 13:30</small></p>
+                            </div>
+                            <div class="alert alert-success">
+                                Permintaan jasa <strong>Driver</strong> masuk dari <strong>Bassem Ramadan</strong>.
+                                <p><small>8-11-2018 6:30</small></p>
+                            </div>
+                            <div class="alert alert-warning">
+                                Transaksi jasa <strong>Perbaikan Kelistrikan</strong> dengan <strong>Arthur DeMonten</strong> telah selesai.
+                                <p><small>11-8-2018 13:30</small></p>
+                            </div>
+                            <div class="alert alert-success">
+                                Permintaan jasa <strong>Perbaikan Kelistrikan</strong> pada <strong>Arthur DeMonte</strong> telah dikonfirmasi.
+                                <p><small>11-8-2018 9:30</small></p>
+                            </div>
+                            <div class="alert alert-warning">
+                                Transaksi jasa <strong>Babysitter</strong> dengan <strong>Alicia Flood</strong> telah selesai.
+                                <p><small>6-8-2018 19:30</small></p>
+                            </div>
+                            <div class="alert alert-success">
+                                Permintaan jasa <strong>Babysitter</strong> pada <strong>Alicia Flood</strong> telah dikonfirmasi.
+                                <p><small>6-8-2018 17:30</small></p>
+                            </div>
+                            <div class="alert alert-warning">
+                                Transaksi jasa <strong>Service Komputer</strong> dengan <strong>Brandon Parkinson</strong> telah selesai.
+                                <p><small>15-17-2018 19:30</small></p>
+                            </div>
+                            <div class="alert alert-success">
+                                Permintaan jasa <strong>Service Komputer</strong> pada <strong>Brandon Parkinson</strong> telah dikonfirmasi.
+                                <p><small>14-7-2018 17:30</small></p>
                             </div>
                         </div>
                         <!-- .panel-body -->

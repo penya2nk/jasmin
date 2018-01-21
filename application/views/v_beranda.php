@@ -41,8 +41,8 @@
 						<div class="top_nav_right">
 							<ul class="top_nav_menu">
 								<li class="account">
-									<a href="<?php echo site_url('welcome/setting');?>">
-										My Account
+									<a href="<?php echo site_url('welcome/profil_2');?>">
+										Allan Taylor
 									</a>
 								</li>
 							</ul>
@@ -121,9 +121,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<div class="banner_item align-items-center" style="background-image:url(<?php echo base_url('assets/coloshop/images/banner_1.jpg'); ?>)">
+						<div class="banner_item align-items-center" style="background-image:url(<?php echo base_url('assets/coloshop/images/banner_4.jpg'); ?>)">
 							<div class="banner_category">
-								<a href="categories.html">Sedia Jasa</a>
+								<a href="<?php echo site_url('welcome/sedia');?>">Sedia Jasa</a>
 							</div>
 						</div>
 						<div class="panel panel-default">
@@ -144,21 +144,22 @@
                                     <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td>Reparasi AC</td>
-                                            <td>12-12-2017 18:00</td>
+                                            <td>Service AC</td>
+                                            <td>1-12-2018 17:00</td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td>Reparasi AC</td>
-                                            <td>12-12-2017 18:00</td>
+                                            <td>Driver</td>
+                                            <td>12-11-2018 9:00</td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
-                                            <td>Reparasi AC</td>
-                                            <td>12-12-2017 18:00</td>
+                                            <td>Driver</td>
+                                            <td>8-11-2018 7:30</td>
                                         </tr>
                                     </tbody>
                                 </table>
+                          		<a class="btn btn-primary btn-block" href="<?php echo site_url('welcome/reqin');?>">Selengkapnya <i class="fa fa-arrow-right"></i></a>
                             </div>
                             <!-- /.table-responsive -->
                         </div>
@@ -167,9 +168,9 @@
                     <!-- /.panel -->
 					</div>
 					<div class="col-md-6">
-						<div class="banner_item align-items-center" style="background-image:url(<?php echo base_url('assets/coloshop/images/banner_2.jpg'); ?>)">
+						<div class="banner_item align-items-center" style="background-image:url(<?php echo base_url('assets/coloshop/images/banner_5.jpg'); ?>)">
 							<div class="banner_category">
-								<a href="categories.html">Cari Jasa</a>
+								<a href="<?php echo site_url('welcome/kategori');?>">Cari Jasa</a>
 							</div>
 						</div>
 						<div class="panel panel-default">
@@ -190,21 +191,22 @@
                                     <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td>Reparasi AC</td>
-                                            <td>12-12-2017 18:00</td>
+                                            <td>Perbaikan Kelistrikan</td>
+                                            <td>11-8-2017 12:00</td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td>Reparasi AC</td>
-                                            <td>12-12-2017 18:00</td>
+                                            <td>Babysitter</td>
+                                            <td>6-8-2017 18:00</td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
-                                            <td>Reparasi AC</td>
-                                            <td>12-12-2017 18:00</td>
+                                            <td>Service Komputer</td>
+                                            <td>15-7-2017 17:30</td>
                                         </tr>
                                     </tbody>
                                 </table>
+                          		<a class="btn btn-primary btn-block" href="<?php echo site_url('welcome/reqout');?>">Selengkapnya <i class="fa fa-arrow-right"></i></a>
                             </div>
                             <!-- /.table-responsive -->
                         </div>

@@ -62,7 +62,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-right">
                         <div class="logo_container">
-                            <a href="#">colo<span>shop</span></a>
+                            <a href="#">Jas<span>min</span></a>
                         </div>
                         <nav class="navbar">
                             

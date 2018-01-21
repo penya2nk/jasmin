@@ -65,8 +65,8 @@
                         <div class="top_nav_right">
                             <ul class="top_nav_menu">
                                 <li class="account">
-                                    <a href="<?php echo site_url('welcome/setting');?>">
-                                        My Account
+                                    <a href="<?php echo site_url('welcome/profil_2');?>">
+                                        Allan Taylor
                                     </a>
                                 </li>
                             </ul>
@@ -146,7 +146,7 @@
                     <div class="panel-body">
                           <div class="form-group">
                             <label for="exampleInputEmail1">Email : </label>
-                            Email
+                            ataylor@kettering.edu
                           </div>
                           <div class="form-group" align="right">
                             <button class="btn btn-primary" data-toggle="modal" data-target="#ModalEmail">
@@ -167,27 +167,27 @@
                     <div class="panel-body">
                           <div class="form-group">
                             <label for="nama">Nama Lengkap : </label>
-                            Nama
+                            Allan Taylor
                             <button class="btn btn-primary btn-xs" data-toggle="modal" data-target="#ModalNama">
                                 <i class="fa fa-edit"></i> Ubah
                             </button>
                           </div>                           
                           <div class="form-group">
-                            <label for="tgl_lahir">Tanggal Lahir : </label>
+                            <label for="tgl_lahir">Tanggal Lahir : 01-12-1986 </label>
                             <button class="btn btn-primary btn-xs" data-toggle="modal" data-target="#ModalTglLahir">
                                 <i class="fa fa-edit"></i> Ubah
                             </button>
                           </div>
                           <div class="form-group">
                             <label for="jk">Jenis Kelamin : </label>
-                            Jenis Kelamin
+                            Pria
                             <button class="btn btn-primary btn-xs" data-toggle="modal" data-target="#ModalJK">
                                 <i class="fa fa-edit"></i> Ubah
                             </button>
                           </div>
                           <div class="form-group">
                             <label for="nama">Nomor Telepon/HP : </label>
-                            No HP
+                            08320083912
                             <button class="btn btn-primary btn-xs" data-toggle="modal" data-target="#ModalNoHp">
                                 <i class="fa fa-edit"></i> Ubah
                             </button>
@@ -201,7 +201,7 @@
                         <h3 class="panel-title">Alamat</h3>
                     </div>
                     <div class="panel-body"> 
-                        Alamat
+                        Jln. Bukit Cemara no 23, Klojen, Malang, Jawa Timur
                           <div class="form-group" align="right">
                             <button class="btn btn-primary" data-toggle="modal" data-target="#ModalAlamat">
                                 <i class="fa fa-edit"></i> Ubah

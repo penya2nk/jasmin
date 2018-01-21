@@ -124,7 +124,7 @@
 					<div class="row">
 						<div class="col-lg-9 image_col order-lg-2 order-1">
 							<div class="single_product_image">
-								<div class="single_product_image_background"  style="background-image:url(<?php echo base_url('assets/coloshop/images/product_a.jpg'); ?>)"></div>
+								<div class="single_product_image_background"  style="background-image:url(<?php echo base_url('assets/coloshop/images/profile_pic.jpg'); ?>)"></div>
 							</div>
 						</div>
 					</div>
@@ -133,13 +133,13 @@
 			<div class="col-lg-5">
 				<div class="product_details">
 					<div class="product_details_title">
-						<h2>Ahmad Pourmovahed</h2>
-						<p>Jln. Panglima Polim no. 22, Blimbing, Malang, Jawa Timur</p>
-						<p>08972277177</p>
+						<h2>Allan Taylor</h2>
+						<p>Jln. Bukit Cemara no 23, Klojen, Malang, Jawa Timur</p>
+						<p>08320083912</p>						
 					</div>
 					<!-- ================ -->
-					<div> <h4>Service AC</h4></div>
-					<div class="product_price">Rp. 120.000 / Jam
+					<div> <h4>Driver</h4></div>
+					<div class="product_price">Rp. 95.000 / Jam
 
 					<ul class="star_rating">
 						<li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -149,14 +149,18 @@
 						<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 					</ul>
 					</div>
-					<div class="quantity d-flex flex-column flex-sm-row align-items-sm-center">
-						<span>Jumlah / Jam:</span>
-						<div class="quantity_selector">
-							<span class="minus"><i class="fa fa-minus" aria-hidden="true"></i></span>
-							<span id="quantity_value">1</span>
-							<span class="plus"><i class="fa fa-plus" aria-hidden="true"></i></span>
-						</div>
-						<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNama">Kirim Permintaan</a></div>
+					<!-- ================== -->
+					<!-- ================ -->
+					<div> <h4>Service AC</h4></div>
+					<div class="product_price">Rp. 120.000 / Unit
+
+					<ul class="star_rating">
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+					</ul>
 					</div>
 					<!-- ================== -->
 				</div>
@@ -243,8 +247,8 @@
 				<input type="hidden" id="dtp_input2" value="" /><br/>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>          
-				<a class="btn btn-primary" href="<?php echo site_url('welcome/beranda');?>">Kirim</a>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
             </div>
         </div>
         <!-- /.modal-content -->

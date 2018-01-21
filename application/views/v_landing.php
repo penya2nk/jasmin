@@ -88,7 +88,7 @@
 
 	<!-- Slider -->
 
-	<div class="main_slider" style="background-image:url(<?php echo base_url('assets/coloshop/images/slider_1.jpg'); ?>)">
+	<div class="main_slider" style="background-image:url(<?php echo base_url('assets/coloshop/images/slider_2.jpg'); ?>)">
 		<div class="container fill_height">
 			<div class="row align-items-center fill_height">
 				<div class="col">
@@ -118,9 +118,9 @@
 					<div class="new_arrivals_sorting">
 						<ul class="arrivals_grid_sorting clearfix button-group filters-button-group">
 							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center active is-checked" data-filter="*">semua</li>
-							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".women">Elektronik</li>
-							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".accessories">Konstruksi Ringan</li>
-							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".men">Rumah Tangga</li>
+							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".elektro">Elektronik</li>
+							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".konstruksi">Konstruksi Ringan</li>
+							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".rumah">Rumah Tangga</li>
 						</ul>
 					</div>
 				</div>
@@ -131,155 +131,152 @@
 
 						<!-- Product 1 -->
 
-						<div class="product-item men">
+						<div class="product-item elektro">
 							<div class="product discount product_filter">
 								<div class="product_image">
-									<img src="<?php echo base_url('assets/coloshop/images/product_1.png'); ?>" alt="">
+									<img src="<?php echo base_url('assets/coloshop/images/product_ac.png'); ?>" alt="">
 								</div>
 								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Fujifilm X100T 16 MP Digital Camera (Silver)</a></h6>
-									<div class="product_price">$520.00</div>
+									<h6 class="product_name"><a href="single.html">Service AC</a></h6>
+									<div class="product_price">Rp. 100.000 - 200.000/unit</div>
 								</div>
 							</div>
-							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">add to cart</a></div>
-						</div>
-
-						<!-- Product 2 -->
-
-						<div class="product-item women">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="<?php echo base_url('assets/coloshop/images/product_2.png'); ?>" alt="">
-								</div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-									<div class="product_price">$610.00</div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">add to cart</a></div>
-						</div>
-
-						<!-- Product 3 -->
-
-						<div class="product-item women">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="<?php echo base_url('assets/coloshop/images/product_3.png'); ?>" alt="">
-								</div>
-								<div class="favorite"></div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Blue Yeti USB Microphone Blackout Edition</a></h6>
-									<div class="product_price">$120.00</div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">add to cart</a></div>
-						</div>
-
-						<!-- Product 4 -->
-
-						<div class="product-item accessories">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="<?php echo base_url('assets/coloshop/images/product_4.png'); ?>" alt="">
-								</div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h6>
-									<div class="product_price">$410.00</div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">add to cart</a></div>
-						</div>
-
-						<!-- Product 5 -->
-
-						<div class="product-item women men">
-							<div class="product product_filter">
-								<div class="product_image">
-									<img src="<?php echo base_url('assets/coloshop/images/product_5.png'); ?>" alt="">
-								</div>
-								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Pryma Headphones, Rose Gold & Grey</a></h6>
-									<div class="product_price">$180.00</div>
-								</div>
-							</div>
-							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">add to cart</a></div>
+							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">Cari</a></div>
 						</div>
 
 						<!-- Product 6 -->
 
-						<div class="product-item accessories">
+						<div class="product-item konstruksi">
 							<div class="product discount product_filter">
 								<div class="product_image">
-									<img src="<?php echo base_url('assets/coloshop/images/product_6.png'); ?>" alt="">
+									<img src="<?php echo base_url('assets/coloshop/images/product_saluranair.png'); ?>" alt="">
 								</div>
 								<div class="product_info">
-									<h6 class="product_name"><a href="#single.html">Fujifilm X100T 16 MP Digital Camera (Silver)</a></h6>
-									<div class="product_price">$520.00</div>
+									<h6 class="product_name"><a href="single.html">Perbaikan Saluran Air</a></h6>
+									<div class="product_price">Rp. 200.000 - 220.000/hari</div>
 								</div>
 							</div>
-							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">add to cart</a></div>
+							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">Cari</a></div>
 						</div>
 
-						<!-- Product 7 -->
+						<!-- Product 3 -->
 
-						<div class="product-item women">
-							<div class="product product_filter">
+						<div class="product-item elektro">
+							<div class="product discount product_filter">
 								<div class="product_image">
-									<img src="<?php echo base_url('assets/coloshop/images/product_7.png'); ?>" alt="">
+									<img src="<?php echo base_url('assets/coloshop/images/product_kulkas.png'); ?>" alt="">
 								</div>
 								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-									<div class="product_price">$610.00</div>
+									<h6 class="product_name"><a href="single.html">Service Kulkas</a></h6>
+									<div class="product_price">Rp. 90.000 - 180.000/unit</div>
 								</div>
 							</div>
-							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">add to cart</a></div>
+							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">Cari</a></div>
+						</div>
+
+						<!-- Product 4 -->
+
+						<div class="product-item elektro">
+							<div class="product discount product_filter">
+								<div class="product_image">
+									<img src="<?php echo base_url('assets/coloshop/images/product_komputer.png'); ?>" alt="">
+								</div>
+								<div class="product_info">
+									<h6 class="product_name"><a href="single.html">Service Komputer</a></h6>
+									<div class="product_price">Rp. 100.000 - 120.000/unit</div>
+								</div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">Cari</a></div>
 						</div>
 
 						<!-- Product 8 -->
 
-						<div class="product-item accessories">
-							<div class="product product_filter">
+						<div class="product-item rumah">
+							<div class="product discount product_filter">
 								<div class="product_image">
-									<img src="<?php echo base_url('assets/coloshop/images/product_8.png'); ?>" alt="">
+									<img src="<?php echo base_url('assets/coloshop/images/product_babysitter.png'); ?>" alt="">
 								</div>
 								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">Blue Yeti USB Microphone Blackout Edition</a></h6>
-									<div class="product_price">$120.00</div>
+									<h6 class="product_name"><a href="single.html">Babysitter</a></h6>
+									<div class="product_price">Rp. 50.000 - 120.000/hari</div>
 								</div>
 							</div>
-							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">add to cart</a></div>
+							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">Cari</a></div>
 						</div>
 
-						<!-- Product 9 -->
+						<!-- Product 5 -->
 
-						<div class="product-item men">
-							<div class="product product_filter">
+						<div class="product-item konstruksi">
+							<div class="product discount product_filter">
 								<div class="product_image">
-									<img src="<?php echo base_url('assets/coloshop/images/product_9.png'); ?>" alt="">
+									<img src="<?php echo base_url('assets/coloshop/images/product_kelistrikan.png'); ?>" alt="">
 								</div>
 								<div class="product_info">
-									<h6 class="product_name"><a href="single.html">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h6>
-									<div class="product_price">$410.00</div>
+									<h6 class="product_name"><a href="single.html">Perbaikan Kelistrikan</a></h6>
+									<div class="product_price">Rp. 150.000 - 200.000/hari</div>
 								</div>
 							</div>
-							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">add to cart</a></div>
+							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">Cari</a></div>
 						</div>
 
 						<!-- Product 10 -->
 
-						<div class="product-item men">
-							<div class="product product_filter">
+						<div class="product-item rumah">
+							<div class="product discount product_filter">
 								<div class="product_image">
-									<img src="<?php echo base_url('assets/coloshop/images/product_10.png'); ?>" alt="">
+									<img src="<?php echo base_url('assets/coloshop/images/product_dapur.png'); ?>" alt="">
 								</div>
 								<div class="product_info">
-									<h6 class="product_name">Prymann Headphones Pryma Headphones</h6>
-									<div class="product_price">Rp. 80.000 - 100.000</div>
-									<div class="product_price text-muted"> <small>per jam</small> </div>
-									<br>
+									<h6 class="product_name"><a href="single.html">Tenaga Dapur</a></h6>
+									<div class="product_price">Rp. 50.000 - 140.000/hari</div>
 								</div>
 							</div>
-							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">add to cart</a></div>
+							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">Cari</a></div>
+						</div>
+
+						<!-- Product 7 -->
+
+						<div class="product-item konstruksi">
+							<div class="product discount product_filter">
+								<div class="product_image">
+									<img src="<?php echo base_url('assets/coloshop/images/product_konstruksi.png'); ?>" alt="">
+								</div>
+								<div class="product_info">
+									<h6 class="product_name"><a href="single.html">Perbaikan Rumah Ringan</a></h6>
+									<div class="product_price">Rp. 100.000 - 220.000/hari</div>
+								</div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">Cari</a></div>
+						</div>
+
+						<!-- Product 2 -->
+
+						<div class="product-item elektro">
+							<div class="product discount product_filter">
+								<div class="product_image">
+									<img src="<?php echo base_url('assets/coloshop/images/product_tv.png'); ?>" alt="">
+								</div>
+								<div class="product_info">
+									<h6 class="product_name"><a href="single.html">Service Televisi</a></h6>
+									<div class="product_price">Rp. 120.000 - 200.000/unit</div>
+								</div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">Cari</a></div>
+						</div>
+
+						<!-- Product 9 -->
+
+						<div class="product-item rumah">
+							<div class="product discount product_filter">
+								<div class="product_image">
+									<img src="<?php echo base_url('assets/coloshop/images/product_supir.png'); ?>" alt="">
+								</div>
+								<div class="product_info">
+									<h6 class="product_name"><a href="single.html">Driver</a></h6>
+									<div class="product_price">Rp. 80.000 - 120.000/hari</div>
+								</div>
+							</div>
+							<div class="red_button add_to_cart_button"><a href="#" data-toggle="modal" data-target="#ModalNoHp">Cari</a></div>
 						</div>
 					</div>
 				</div>
@@ -295,28 +292,10 @@
 			<div class="row benefit_row">
 				<div class="col-lg-3 benefit_col">
 					<div class="benefit_item d-flex flex-row align-items-center">
-						<div class="benefit_icon"><i class="fa fa-truck" aria-hidden="true"></i></div>
-						<div class="benefit_content">
-							<h6>free shipping</h6>
-							<p>Suffered Alteration in Some Form</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 benefit_col">
-					<div class="benefit_item d-flex flex-row align-items-center">
 						<div class="benefit_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
 						<div class="benefit_content">
-							<h6>cach on delivery</h6>
-							<p>The Internet Tend To Repeat</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 benefit_col">
-					<div class="benefit_item d-flex flex-row align-items-center">
-						<div class="benefit_icon"><i class="fa fa-undo" aria-hidden="true"></i></div>
-						<div class="benefit_content">
-							<h6>45 days return</h6>
-							<p>Making it Look Like Readable</p>
+							<h6>Gaji Bervariasi</h6>
+							<p>Gaji penuh atau paruh waktu, harian, per jam. Semua ada!</p>
 						</div>
 					</div>
 				</div>
@@ -324,8 +303,26 @@
 					<div class="benefit_item d-flex flex-row align-items-center">
 						<div class="benefit_icon"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
 						<div class="benefit_content">
-							<h6>opening all week</h6>
-							<p>8AM - 09PM</p>
+							<h6>Cepat Dan Mudah</h6>
+							<p>Cari dan sediakan jasa dengan mudah.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon"><i class="fa fa-user" aria-hidden="true"></i></div>
+						<div class="benefit_content">
+							<h6>Profil Sederhana</h6>
+							<p>Buat profil yang menarik dan lengkap.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon"><i class="fa fa-tags" aria-hidden="true"></i></div>
+						<div class="benefit_content">
+							<h6>Layanan Gratis</h6>
+							<p>Tidak ada komisi agen atau biaya lainnya.</p>
 						</div>
 					</div>
 				</div>

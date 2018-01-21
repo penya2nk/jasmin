@@ -39,8 +39,8 @@
 						<div class="top_nav_right">
 							<ul class="top_nav_menu">
 								<li class="account">
-									<a href="<?php echo site_url('welcome/setting');?>">
-										My Account
+									<a href="<?php echo site_url('welcome/profil_2');?>">
+										Allan Taylor
 									</a>
 								</li>
 							</ul>
@@ -127,10 +127,10 @@
                         <div class="panel-body">
                             <div class="list-group">
                                 <a href="#" class="list-group-item">
-                                    <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" /> New Comment
+                                    <img src="<?php echo base_url('assets/coloshop/images/chat_2.jpg'); ?>" alt="User Avatar" class="img-circle" /> Brian Beck
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" /> New Comment
+                                    <img src="<?php echo base_url('assets/coloshop/images/chat_3.jpg'); ?>" alt="User Avatar" class="img-circle" /> Alicia Flood
                                 </a>
                             </div>
                         </div>
@@ -144,24 +144,35 @@
                             <ul class="chat">
                                 <li class="left clearfix">
                                     <span class="chat-img pull-left">
-                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
+                                        <img src="<?php echo base_url('assets/coloshop/images/chat_2.jpg'); ?>" alt="User Avatar" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            Ok, terimakasih.
                                         </p>
                                         <div align="right"><small>15:00</small></div>
                                     </div>
                                 </li>
                                 <li class="right clearfix">
                                     <span class="chat-img pull-right">
-                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                        <img src="<?php echo base_url('assets/coloshop/images/chat_1.jpg'); ?>" alt="User Avatar" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            Pagi, bisa.
                                         </p>
                                         <div align="left"><small>11:00</small></div>
+                                    </div>
+                                </li>
+                                <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                        <img src="<?php echo base_url('assets/coloshop/images/chat_2.jpg'); ?>" alt="User Avatar" class="img-circle" />
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <p>
+                                            Selamat pagi, apa bisa tolong antarkan saya ke bandara pagi ini?
+                                        </p>
+                                        <div align="right"><small>6:00</small></div>
                                     </div>
                                 </li>                                
                             </ul>

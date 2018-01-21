@@ -13,6 +13,7 @@
             <li><a href="<?php echo site_url('welcome/setting');?>">Setting</a></li>
             <li><a href="<?php echo site_url('welcome/kategori');?>">Kategori</a></li>
             <li><a href="<?php echo site_url('welcome/profil');?>">Profil</a></li>
+            <li><a href="<?php echo site_url('welcome/profil_2');?>">Profil 2</a></li>
             <li><a href="<?php echo site_url('welcome/penyedia');?>">Penyedia Jasa</a></li>
             <li><a href="<?php echo site_url('welcome/notifikasi');?>">Notifikasi</a></li>
             <li><a href="<?php echo site_url('welcome/obrolan');?>">Obrolan</a></li>

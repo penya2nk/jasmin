@@ -41,8 +41,8 @@
 						<div class="top_nav_right">
 							<ul class="top_nav_menu">
 								<li class="account">
-									<a href="<?php echo site_url('welcome/setting');?>">
-										My Account
+									<a href="<?php echo site_url('welcome/profil_2');?>">
+										Allan Taylor
 									</a>
 								</li>
 							</ul>

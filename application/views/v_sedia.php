@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Jasmin - Permintaan</title>
+<title>Jasmin - Sedia Jasa</title>
 <link rel="shortcut icon" href="<?php echo base_url('assets/coloshop/images/favicon.ico'); ?>">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -122,7 +122,7 @@
 		<div class="container">
 			<div class="panel panel-default">
                         <div class="panel-heading">
-                            <i class="fa fa-arrow-up"></i> Permintaan Keluar
+                            Alert Styles
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -130,41 +130,31 @@
                                 <table class="table table-striped">
                                     <thead>
                                         <tr align="center">
-                                            <th></th>
+                                            <th width="5%"></th>
                                             <th>Jasa</th>
-                                            <th>Klien</th>
-                                            <th width="15%">Waktu Pengerjaan</th>
-                                            <th width="10%">Status</th>
                                             <th width="10%"></th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td>Perbaikan Kelistrikan<p><small><a href="<?php echo site_url('welcome/invoice');?>">Invoice</i></a></small></p></td>
-                                            <td>Arthur DeMonte</td>
-                                            <td>11-8-2017 12:00</td>
-                                            <td class="success" align="center"><small>Selesai</small></td>
-                                            <td></td>
+                                            <td>Service AC</td>
+                                            <td>
+                                            	<a class="btn btn-danger" data-toggle="modal" data-target="#ModalHapus"><i class="fa fa-remove text-white"></i></a>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td>Babysitter<p><small><a href="<?php echo site_url('welcome/invoice');?>">Invoice</i></a></small></p></td>
-                                            <td>Alicia Flood</td>
-                                            <td>6-8-2017 18:00</td>
-                                            <td class="success" align="center"><small>Selesai</small></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Service Komputer<p><small><a href="<?php echo site_url('welcome/invoice');?>">Invoice</i></a></small></p></td>
-                                            <td>Brandon Parkinson</td>
-                                            <td>15-7-2017 17:30</td>
-                                            <td class="success" align="center"><small>Selesai</small></td>
-                                            <td></td>
+                                            <td>Driver</td>
+                                            <td>
+                                            	<a class="btn btn-danger" data-toggle="modal" data-target="#ModalHapus"><i class="fa fa-remove text-white"></i></a>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
+	                            <button class="btn btn-primary btn-block" data-toggle="modal" data-target="#ModalTambah">
+	                                <i class="fa fa-plus"></i> Tambah
+	                            </button>                               
                             </div>
                             <!-- /.table-responsive -->
                         </div>
@@ -198,7 +188,61 @@
 	</footer>
 
 </div>
+<div class="modal fade" id="ModalTambah" tabindex="-1" role="dialog" aria-labelledby="ModalTambahLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="ModalTambahLabel">Ubah No Telepon/HP</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                          <div class="form-group">
+                            <label for="nama">Kategori</label>
+                            <select name="kategori" class="form-control" id="kategori">
+								<option>- Select Kategori -</option>
+								<?php foreach($kategori as $kat){
+									echo '<option value="'.$kat->id.'">'.$kat->nama.'</option>';
+								} ?>
+							</select>
+                          </div>
+                          <div class="form-group">
+                            <label for="nama">Jasa</label>                            
+							<select name="jasa" class="form-control" id="jasa">
+								<option value=''>Select Jasa</option>
+							</select>
+                          </div>
 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-success">Tambah</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+<div class="modal fade" id="ModalHapus" tabindex="-1" role="dialog" aria-labelledby="ModalHapusLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="ModalHapusLabel">Hapus</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body" align="center">
+                Anda yakin ingin menghapus jasa ini?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
 <script src="<?php echo base_url('assets/coloshop/js/jquery-3.2.1.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/coloshop/styles/bootstrap4/popper.js'); ?>"></script>
 <script src="<?php echo base_url('assets/coloshop/styles/bootstrap4/bootstrap.min.js'); ?>"></script>
@@ -206,6 +250,27 @@
 <script src="<?php echo base_url('assets/coloshop/plugins/OwlCarousel2-2.2.1/owl.carousel.js'); ?>"></script>
 <script src="<?php echo base_url('assets/coloshop/plugins/easing/easing.js'); ?>"></script>
 <script src="<?php echo base_url('assets/coloshop/js/custom.js'); ?>"></script>
+
+    <!-- jQuery -->
+    <script src="<?php echo base_url('assets/sbadmin2/vendor/jquery/jquery.min.js'); ?>"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="<?php echo base_url('assets/sbadmin2/vendor/bootstrap/js/bootstrap.min.js'); ?>"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="<?php echo base_url('assets/sbadmin2/vendor/metisMenu/metisMenu.min.js'); ?>"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="<?php echo base_url('assets/sbadmin2/dist/js/sb-admin-2.js'); ?>"></script>
+    <script>
+	        $(document).ready(function(){
+	            $("#kategori").change(function (){
+	                var url = "<?php echo site_url('kat/add_ajax_jasa');?>/"+$(this).val();
+	                $('#jasa').load(url);
+	                return false;
+	            })
+	        });
+	    </script>
 </body>
 
 </html>

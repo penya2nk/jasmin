@@ -41,8 +41,8 @@
 						<div class="top_nav_right">
 							<ul class="top_nav_menu">
 								<li class="account">
-									<a href="<?php echo site_url('welcome/setting');?>">
-										My Account
+									<a href="<?php echo site_url('welcome/profil_2');?>">
+										Allan Taylor
 									</a>
 								</li>
 							</ul>
@@ -122,7 +122,7 @@
 		<div class="container">
 			<div class="panel panel-default">
                         <div class="panel-heading">
-                            Alert Styles
+                            <i class="fa fa-arrow-down"></i> Permintaan Masuk
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -135,33 +135,36 @@
                                             <th>Klien</th>
                                             <th width="15%">Waktu Pengerjaan</th>
                                             <th width="10%">Status</th>
-                                            <th width="10%"></th>
+                                            <th width="14%"></th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td>Reparasi AC</td>
-                                            <td>Reparasi AC</td>
-                                            <td>12-12-2017 18:00</td>
-                                            <td class="success" align="center"><small>Selesai</small></td>
-                                            <td><a class="btn btn-primary btn-sm" href="index.html">Login</a></td>
+                                            <td>Service AC <p><small><a href="<?php echo site_url('welcome/invoice');?>">Invoice</i></a></small></p></td>
+                                            <td>Brian Beck</td>
+                                            <td>1-12-2018 17:00</td>
+                                            <td class="warning" align="center"><small>Menunggu Konfirmasi</small></td>
+                                            <td>
+                                            	<a class="btn btn-danger btn-sm" href="#">Tolak</a>
+                                            	<a class="btn btn-primary btn-sm" href="#">Terima</a>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td>Reparasi AC</td>
-                                            <td>Reparasi AC</td>
-                                            <td>12-12-2017 18:00</td>
+                                            <td>Driver<p><small><a href="<?php echo site_url('welcome/invoice');?>">Invoice</i></a></small></p></td>
+                                            <td>Bassem Ramadan</td>
+                                            <td>12-11-2018 9:00</td>
                                             <td class="success" align="center"><small>Selesai</small></td>
-                                            <td><a class="btn btn-primary btn-sm" href="index.html">Login</a></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
-                                            <td>Reparasi AC</td>
-                                            <td>Reparasi AC</td>
-                                            <td>12-12-2017 18:00</td>
+                                            <td>Driver<p><small><a href="<?php echo site_url('welcome/invoice');?>">Invoice</i></a></small></p></td>
+                                            <td>Bassem Ramadan</td>
+                                            <td>8-11-2018 7:30</td>
                                             <td class="success" align="center"><small>Selesai</small></td>
-                                            <td><a class="btn btn-primary btn-sm" href="index.html">Login</a></td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
                                 </table>

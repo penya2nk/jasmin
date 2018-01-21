@@ -50,8 +50,8 @@
                                             <table style="width: 100%; border-collapse: collapse;" width="100%" cellspacing="0" cellpadding="0">
                                                 <tbody>
                                                     <tr>
-                                                        <td style="width: 80px; font-weight: 600; padding: 3px 20px 3px 0;" width="80">Penjual</td>
-                                                        <td style="padding: 3px 0;">T'Lab geek shop</td>
+                                                        <td style="width: 80px; font-weight: 600; padding: 3px 20px 3px 0;" width="80">Penyedia</td>
+                                                        <td style="padding: 3px 0;">Alan Taylor</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -75,35 +75,7 @@
                                                 <tbody>
                                                     <tr>
                                                         <td style="width: 80px; font-weight: 600; padding: 3px 20px 3px 0;" width="80">Tanggal</td>
-                                                        <td style="padding: 3px 0;">08 January 2018</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                    
-                                </tbody></table>
-                            </td>
-                            <td style="padding-left: 10px;vertical-align: text-top;">
-                                <table style="width: 100%; border-collapse: collapse;" width="100%" cellspacing="0" cellpadding="0">
-                                    <tbody><tr style="font-size: 13px;">
-                                        <td>
-                                            <table style="width: 100%; border-collapse: collapse;" width="100%" cellspacing="0" cellpadding="0">
-                                                <tbody>
-                                                    <tr>
-                                                        
-                                                        <td style="width: 80px;vertical-align: text-top; font-weight: 600; padding: 3px 20px 3px 0;" width="80">Pembayaran</td>
-                                                        
-                                                        <td>
-
-                                                        
-                                                            <div style="padding-bottom: 3px;">Indomaret / Ceriamart &nbsp;
-                                                                
-                                                                <img src="Invoice_files/indomaret.png" alt="logo" style="vertical-align: middle;" height="25">
-                                                                
-                                                            </div>
-                                                        
-                                                        </td>
+                                                        <td style="padding: 3px 0;">08 November 2018</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -117,10 +89,10 @@
                 </table>
                 <table style="width: 100%; text-align: center; border-top: 1px solid rgba(0,0,0,0.1); border-bottom: 1px solid rgba(0,0,0,0.1); padding: 15px 0;" width="100%" cellspacing="0" cellpadding="0">
                     <thead style="font-size: 14px;">
-                        <tr><th style="font-weight: 600; text-align: left; padding: 0 5px 15px 15px;">Nama Produk</th>
-                        <th style="width: 120px; font-weight: 600; padding: 0 5px 15px;" width="120">Jumlah Barang</th>
-                        <th style="width: 65px; font-weight: 600; padding: 0 5px 15px;" width="65">Berat</th>
-                        <th style="width: 115px; font-weight: 600; padding: 0 5px 15px;" width="115">Harga Barang</th>
+                        <tr><th style="font-weight: 600; text-align: left; padding: 0 5px 15px 15px;">Nama Jasa</th>
+                        <th style="width: 120px; font-weight: 600; padding: 0 5px 15px;" width="120">Jumlah</th>
+                        <th style="width: 65px; font-weight: 600; padding: 0 5px 15px;" width="65">Satuan</th>
+                        <th style="width: 115px; font-weight: 600; padding: 0 5px 15px;" width="115">Harga</th>
                         <th style="width: 115px; font-weight: 600; text-align: right; padding: 0 30px 15px 5px;" width="115">Subtotal</th>
                     </tr></thead>
                     <tbody>
@@ -128,36 +100,21 @@
                         
 
                         <tr style="font-size: 13px;">
-                            <td style="text-align: left; padding: 8px 5px 8px 15px;">Barang 1
+                            <td style="text-align: left; padding: 8px 5px 8px 15px;">Service AC
 
                             
 
                             </td>
                             <td style="width: 120px; padding: 8px 5px;" width="120">1</td>
-                            <td style="width: 65px; padding: 8px 5px;" width="65">0.01 kg </td>
-                            <td style="width: 115px; padding: 8px 5px;" width="115">Rp 5.000</td>
-                            <td style="width: 115px; text-align: right; padding: 8px 30px 8px 5px;" width="115">Rp 5.000</td>
-                        </tr>
-                            
-                        
-
-                        <tr style="font-size: 13px;">
-                            <td style="text-align: left; padding: 8px 5px 8px 15px;">Barang 2
-
-                            
-
-                            </td>
-                            <td style="width: 120px; padding: 8px 5px;" width="120">1</td>
-                            <td style="width: 65px; padding: 8px 5px;" width="65">0.01 kg </td>
-                            <td style="width: 115px; padding: 8px 5px;" width="115">Rp 5.000</td>
-                            <td style="width: 115px; text-align: right; padding: 8px 30px 8px 5px;" width="115">Rp 5.000</td>
-                        </tr>
-                            
+                            <td style="width: 65px; padding: 8px 5px;" width="65">1 </td>
+                            <td style="width: 115px; padding: 8px 5px;" width="115">Unit</td>
+                            <td style="width: 115px; text-align: right; padding: 8px 30px 8px 5px;" width="115">Rp 120.000</td>
+                        </tr>                            
                         
 
                         <tr style="font-size: 13px; background-color: rgba(0,0,0,0.1);" bgcolor="#F1F1F1">
                             <td colspan="4" style="font-weight: 600; text-align: left; padding: 8px 5px 8px 15px;">Subtotal</td>
-                            <td style="width: 115px; font-weight: 600; text-align: right; padding: 8px 30px 8px 5px;" width="115">Rp 30.000</td>
+                            <td style="width: 115px; font-weight: 600; text-align: right; padding: 8px 30px 8px 5px;" width="115">Rp 120.000</td>
                         </tr>
                     </tbody>
                 </table>
@@ -169,7 +126,7 @@
                                 <table style="width: 100%; border-collapse: collapse;" width="100%" cellspacing="0" cellpadding="0">
                                     <tbody><tr style="font-size: 15px; color: #42B549; background-color: rgba(0,0,0,0.1);" bgcolor="#F1F1F1">
                                         <td style="padding: 15px 0 15px 30px; font-weight: 600;">Total</td>
-                                        <td style="padding: 15px 30px 15px 0; font-weight: 600; text-align: right; ">Rp 58.000</td>
+                                        <td style="padding: 15px 30px 15px 0; font-weight: 600; text-align: right; ">Rp 120.000</td>
                                     </tr>
                                 </tbody></table>
                             </td>
@@ -178,12 +135,6 @@
                             <td style="width: 35%; vertical-align: top; padding-right: 5px;" width="35%" valign="top"></td>
                             <td style="width: 65%; vertical-align: top; padding-left: 5px;" width="65%" valign="top">
                                 <table style="width: 100%; border-collapse: collapse;" width="100%" cellspacing="0" cellpadding="0">
-                                    
-
-                                    
-
-                                    
-
                                     
                                 </table>
 
@@ -195,20 +146,18 @@
                 <table style="width: 100%; border-top: 1px dashed #DDD; padding: 25px 0px;" width="100%" cellspacing="0" cellpadding="0">
                     <thead>
                         <tr><th style="text-align: left; padding: 0;">
-                            <h3 style="font-size: 15px; font-weight: 600; margin: 0;">Tujuan Pengiriman</h3>
+                            <h3 style="font-size: 15px; font-weight: 600; margin: 0;">Pencari Jasa</h3>
                         </th>
                     </tr></thead>
                     <tbody>
                         <tr>
                             <td style="font-size: 13px; line-height: 20px; padding: 10px 0;">
-                                <p style="font-size: 14px; font-weight: 600; padding-bottom: 5px; margin: 0;">Nugroho Ardi Sutrisno</p>
-                                Jalan Panjaitan Dalam no. 11A RT03 RW04 Kelurahan Penaggungan Kamar B02
-                                <br> Klojen, Kota Malang, 65113
+                                <p style="font-size: 14px; font-weight: 600; padding-bottom: 5px; margin: 0;">Ahmad Pourmovahed</p>
+                                Jln. Panglima Polim no. 22
+                                <br> Blimbing, Malang, Jawa Timur
                                 <br> Jawa Timur
-                                <br> 
-                                
-                                        
-                                         082332812289
+                                <br>    
+                                         08233121213
                                 
                             </td>
                         </tr>
